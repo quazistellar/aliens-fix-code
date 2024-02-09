@@ -4,13 +4,6 @@
 
 }
 
-
-.container-main {
-    width: 1920px;
-    height:3240px;
-     /* Фиксированная ширина контейнера */
- /* Центрируем контейнер по горизонтали */
-}
 .fon2 {
       filter: contrast(105%);
 }
@@ -18,6 +11,7 @@
 /*
 я буду ставить комменты потому что я запуталась (в себе)
 */
+
 
 /*
 sign-up
@@ -42,7 +36,7 @@ transition: transform 0.6s;
 }
 
 .title3{
-/* Space */
+/* space */
 position: absolute;
 width: 150px;
 height: 59px;
@@ -77,7 +71,7 @@ text-align: center;
 }
 
 .title4{
-/* Stars */
+/* stars */
 position: absolute;
 width: 125px;
 height: 59px;
@@ -94,7 +88,7 @@ color: #FFFFFF;
 
 
 .title5{
-/* Planets */
+/* planets */
 position: absolute;
 width: 186px;
 height: 59px;
@@ -109,7 +103,7 @@ text-align: center;
 color: #FFFFFF;
 }
 .title6{
-/* Galaxies */
+/* galaxies */
 position: absolute;
 width: 206px;
 height: 59px;
@@ -125,7 +119,7 @@ color: #FFFFFF;
 }
 
 .title7{
-/* Conspiracies */
+/* conspiracies */
 position: absolute;
 width: 315px;
 height: 59px;
@@ -141,7 +135,7 @@ color: #FFFFFF;
 }
 
 .title8 {
-/* Life. */
+/* life. */
 position: absolute;
 width: 102px;
 height: 59px;
@@ -225,7 +219,7 @@ discover
 
 
  /*
-dhruva_logo
+dhruva_logos
  */
 .dhruva_logo {
     position: absolute;
@@ -245,7 +239,7 @@ dhruva_logo
 }
 
 
-/* Scroll */
+/* scroll */
 .Scroll {
     position: absolute;
     width: 116px;
@@ -300,7 +294,7 @@ transition: transform 0.6s;
 }
 
 .title1 {
-/* Learn */
+/* learn */
 position: absolute;
 width: 361px;
 height: 146px;
@@ -316,7 +310,7 @@ color: #FFFFFF;
 }
 
 .title2 {
-/* and Cosmos */
+/* and cosmos */
 position: absolute;
 width: 783px;
 height: 146px;
