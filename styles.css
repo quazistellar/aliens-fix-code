@@ -1,0 +1,565 @@
+.fon1 {
+    margin-left: 12px;
+    margin-bottom: -4.6px;
+
+}
+
+
+.container-main {
+    width: 1920px;
+    height:3240px;
+     /* Фиксированная ширина контейнера */
+ /* Центрируем контейнер по горизонтали */
+}
+.fon2 {
+      filter: contrast(105%);
+}
+
+/*
+я буду ставить комменты потому что я запуталась (в себе)
+*/
+
+/*
+sign-up
+*/
+.signup {
+position: absolute;
+width: 97px;
+height: 45px;
+left: 1630px;
+top: 50px;
+transition: transform 0.6s;
+}
+
+.signup-div {
+    position: relative;
+    display: inline-block;
+    top: -23px;
+}
+
+.signup:hover {
+    transform: scale(1.2);
+}
+
+.title3{
+/* Space */
+position: absolute;
+width: 150px;
+height: 59px;
+left: 650px;
+top: 117px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 68px;
+line-height: 59px;
+text-align: center;
+ color: #FFFFFF;
+}
+
+.title3:hover{
+    color: #00008B;
+}
+.title4:hover{
+    color:#0000CD;
+}
+.title5:hover{
+    color:#1E90FF;
+}
+.title6:hover{
+    color:#00BFFF;
+}
+.title7:hover{
+    color:#00FFFF;
+}
+.title8:hover{
+    color: #66CDAA;;
+}
+
+.title4{
+/* Stars */
+position: absolute;
+width: 125px;
+height: 59px;
+left: 650px;
+top: 210px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 68px;
+line-height: 59px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+.title5{
+/* Planets */
+position: absolute;
+width: 186px;
+height: 59px;
+left: 650px;
+top: 300px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 68px;
+line-height: 59px;
+text-align: center;
+color: #FFFFFF;
+}
+.title6{
+/* Galaxies */
+position: absolute;
+width: 206px;
+height: 59px;
+left: 650px;
+top: 390px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 68px;
+line-height: 59px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.title7{
+/* Conspiracies */
+position: absolute;
+width: 315px;
+height: 59px;
+left: 650px;
+top: 480px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 68px;
+line-height: 59px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.title8 {
+/* Life. */
+position: absolute;
+width: 102px;
+height: 59px;
+left: 659px;
+top: 570px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 68px;
+line-height: 59px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+/*
+about
+*/
+.about-div {
+    position: relative;
+    display: inline-block;
+}
+
+
+.about:hover {
+    transform: scale(1.2);
+}
+
+.about {
+    position: absolute;
+    width: 68px;
+    height: 20px;
+    left: 1503px;
+    top: 62px;
+    transition: transform 0.6s;
+}
+
+/*
+quiz
+*/
+.quiz-div {
+    position: relative;
+    display: inline-block;
+}
+
+
+.quiz:hover {
+    transform: scale(1.2);
+}
+
+.quiz {
+    position: absolute;
+    width: 57px;
+    height: 23px;
+    left: 1373px;
+    top: 60.7px;
+    transition: transform 0.6s;
+}
+
+/*
+discover
+*/
+
+.discover-div {
+    position: relative;
+    display: inline-block;
+}
+
+.discover:hover {
+    transform: scale(1.2);
+}
+
+.discover {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 1200px;
+    top: 60px;
+    transition: transform 0.6s;
+}
+
+
+ /*
+dhruva_logo
+ */
+.dhruva_logo {
+    position: absolute;
+    width: 175px;
+    height: 32px;
+    left: 179px;
+    top: 46px;
+}
+
+
+.ASTRONOMY_CLUB {
+    position: absolute;
+    width: 173px;
+    height: 15px;
+    left: 179px;
+    top: 80px;
+}
+
+
+/* Scroll */
+.Scroll {
+    position: absolute;
+    width: 116px;
+    height: 29px;
+    left: 1810px;
+    top: 400px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 75px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transform: rotate(90deg);
+}
+
+.Scroll:hover{
+    color: blue;
+}
+
+header {
+  width=1920px;
+  height=1080px;
+}
+
+
+/*
+logos
+*/
+.insta {
+position: absolute;
+width: 28px;
+height: 28px;
+left: 131px;
+top: 980px;
+transition: transform 0.6s;
+}
+
+
+.insta:hover {
+    transform: scale(1.2);
+}
+.twi:hover {
+    transform: scale(1.2);
+}
+.fbk:hover {
+    transform: scale(1.2);
+}
+
+.title1 {
+/* Learn */
+position: absolute;
+width: 361px;
+height: 146px;
+left: 162px;
+top: 200px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 120px;
+line-height: 146px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.title2 {
+/* and Cosmos */
+position: absolute;
+width: 783px;
+height: 146px;
+left: 972px;
+top: 200px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 120px;
+line-height: 146px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.title1:hover{
+    color: #4682B4;
+}
+.title2:hover{
+    color: #7B68EE;
+}
+
+.twi {
+position: absolute;
+width: 34.04px;
+height: 28px;
+left: 128px;
+top: 921px;
+transition: transform 0.6s;
+}
+
+.fbk {
+position: absolute;
+width: 28px;
+height: 28px;
+left: 131px;
+top: 862px;
+transition: transform 0.6s;
+}
+
+.contacts {
+position: absolute;
+width: 500px;
+height: 15px;
+left: 710px;
+top: 3220px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 15px;
+text-align: center;
+color: #FFFFFF;
+}
+
+
+h5 {
+position: absolute;
+width: 177px;
+height: 28px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 28px;
+text-align: center;
+color: #FFFFFF;
+}
+
+h6 {
+position: absolute;
+width: 184px;
+height: 24px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.pic1 {
+position: absolute;
+width: 321px;
+height: 321px;
+left: 168px;
+top: 342px;
+
+border: 2px solid darkblue;
+padding: 5px;
+display: inline-block;
+
+}
+
+.pic2 {
+position: absolute;
+width: 330px;
+height: 330px;
+left: 768px;
+top: 340px;
+
+padding: 5px;
+display: inline-block;
+border: 2px solid #800080;
+}
+
+.pic3 {
+position: absolute;
+width: 330px;
+height: 330px;
+left: 1370px;
+top: 340px;
+
+border: 2px solid darkblue;
+padding: 5px;
+display: inline-block;
+}
+
+
+.animated-text {
+    font-size: 20px;
+    color: #333;
+    animation: change 4s infinite alternate;
+}
+
+@keyframes change {
+    0% {color: #333; }
+    50% {color: aqua; }
+    100% {color: #333; }
+}
+
+.animated-text1 {
+    font-size: 14px;
+    color: #333;
+    animation: change1 4s infinite alternate;
+}
+
+@keyframes change1 {
+    0% {color: #333; }
+    50% {color: blueviolet; }
+    100% {color: #333; }
+}
+
+.navtext1 {
+position: absolute;
+width: 125px;
+height: 59px;
+left: 809px;
+top: 15px;
+font-family: 'Montserrat';
+font-style: bold;
+font-weight: 600;
+font-size: 47px;
+line-height: 59px;
+text-align: center;
+color: #6A5ACD;
+}
+
+.navtext2 {
+position: absolute;
+width: 130px;
+height: 59px;
+left: 845px;
+top: 2215px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 47px;
+line-height: 59px;
+text-align: center;
+color: #6A5ACD;
+}
+
+
+.usabout {
+position: absolute;
+width: 220px;
+height: 33px;
+left: 323px;
+top: 2550px;
+}
+
+.poloska {
+position: absolute;
+width: 0px;
+height: 61px;
+left: 353px;
+top: 2580px;
+border: 1px solid #FFFFFF;
+transform: rotate(90deg);
+}
+
+.logo2 {
+position: absolute;
+width: 200px;
+height: 220.65px;
+left: 334px;
+top: 2770px;
+background: url(Dhruva-Final-(2).png);
+}
+
+
+.info1 {
+position: absolute;
+width: 828px;
+height: 76px;
+left: 670px;
+top: 2590px;
+text-decoration: underline;
+font-family:'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 45px;
+line-height: 190%;
+color: #FFFFFF;
+}
+
+.info2 {
+position: absolute;
+width: 1004px;
+height: 183px;
+left: 673px;
+top: 2730px;
+font-family: 'Poppins';
+font-style: bold;
+font-weight: 300;
+font-size: 32px;
+line-height: 190%;
+letter-spacing: 0.02em;
+text-transform: uppercase;
+color: #FFFFFF;
+display: flex;
+}
+
+.info2:hover{
+    color: #08457e;
+}
+
+.star{
+width: 50px;
+height: 60px;
+left: 400px;
+top: 100px;
+}
+
