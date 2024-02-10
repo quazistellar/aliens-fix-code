@@ -1,11 +1,15 @@
 .fon1 {
     margin-left: 12px;
     margin-bottom: -4.6px;
-
 }
 
 .fon2 {
       filter: contrast(105%);
+}
+
+header {
+  width=1920px;
+  height=1080px;
 }
 
 /*
@@ -13,26 +17,24 @@
 */
 
 
-/*
-sign-up
-*/
+/* sign-up */
 .signup {
-position: absolute;
-width: 97px;
-height: 45px;
-left: 1630px;
-top: 50px;
-transition: transform 0.6s;
+    position: absolute;
+    width: 97px;
+    height: 45px;
+    left: 1630px;
+    top: 50px;
+    transition: transform 0.6s;
+}
+
+.signup:hover {
+    transform: scale(1.2);
 }
 
 .signup-div {
     position: relative;
     display: inline-block;
     top: -23px;
-}
-
-.signup:hover {
-    transform: scale(1.2);
 }
 
 .title3{
@@ -86,7 +88,6 @@ text-align: center;
 color: #FFFFFF;
 }
 
-
 .title5{
 /* planets */
 position: absolute;
@@ -102,6 +103,7 @@ line-height: 59px;
 text-align: center;
 color: #FFFFFF;
 }
+
 .title6{
 /* galaxies */
 position: absolute;
@@ -151,15 +153,7 @@ color: #FFFFFF;
 }
 
 
-/*
-about
-*/
-.about-div {
-    position: relative;
-    display: inline-block;
-}
-
-
+/* about */
 .about:hover {
     transform: scale(1.2);
 }
@@ -173,14 +167,7 @@ about
     transition: transform 0.6s;
 }
 
-/*
-quiz
-*/
-.quiz-div {
-    position: relative;
-    display: inline-block;
-}
-
+/* quiz */
 
 .quiz:hover {
     transform: scale(1.2);
@@ -195,14 +182,7 @@ quiz
     transition: transform 0.6s;
 }
 
-/*
-discover
-*/
-
-.discover-div {
-    position: relative;
-    display: inline-block;
-}
+/* discover */
 
 .discover:hover {
     transform: scale(1.2);
@@ -217,10 +197,7 @@ discover
     transition: transform 0.6s;
 }
 
-
- /*
-dhruva_logos
- */
+ /* dhruva_logos */
 .dhruva_logo {
     position: absolute;
     width: 175px;
@@ -229,7 +206,6 @@ dhruva_logos
     top: 46px;
 }
 
-
 .ASTRONOMY_CLUB {
     position: absolute;
     width: 173px;
@@ -237,7 +213,6 @@ dhruva_logos
     left: 179px;
     top: 80px;
 }
-
 
 /* scroll */
 .Scroll {
@@ -264,15 +239,7 @@ dhruva_logos
     color: blue;
 }
 
-header {
-  width=1920px;
-  height=1080px;
-}
-
-
-/*
-logos
-*/
+/* logos */
 .insta {
 position: absolute;
 width: 28px;
@@ -281,7 +248,6 @@ left: 131px;
 top: 980px;
 transition: transform 0.6s;
 }
-
 
 .insta:hover {
     transform: scale(1.2);
@@ -320,7 +286,7 @@ font-family: 'Montserrat';
 font-style: normal;
 font-weight: 800;
 font-size: 120px;
-line-height: 146px;
+line-height: 146.1px;
 text-align: center;
 color: #FFFFFF;
 
@@ -399,7 +365,6 @@ width: 321px;
 height: 321px;
 left: 168px;
 top: 342px;
-
 border: 2px solid darkblue;
 padding: 5px;
 display: inline-block;
