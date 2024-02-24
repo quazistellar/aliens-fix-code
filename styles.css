@@ -4,7 +4,7 @@
 }
 
 .fon2 {
-      filter: contrast(105%);
+    filter: contrast(105%);
 }
 
 header {
@@ -12,18 +12,13 @@ header {
   height=1080px;
 }
 
-/*
-я буду ставить комменты потому что я запуталась (в себе)
-*/
-
-
 /* sign-up */
 .signup {
-    position: absolute;
+    position: relative;
     width: 97px;
     height: 45px;
     left: 1630px;
-    top: 50px;
+    top: -25px;
     transition: transform 0.6s;
 }
 
@@ -50,7 +45,7 @@ font-weight: 600;
 font-size: 68px;
 line-height: 59px;
 text-align: center;
- color: #FFFFFF;
+color: #FFFFFF;
 }
 
 .title3:hover{
@@ -69,7 +64,7 @@ text-align: center;
     color:#00FFFF;
 }
 .title8:hover{
-    color: #66CDAA;;
+    color: #66CDAA;
 }
 
 .title4{
@@ -137,7 +132,7 @@ color: #FFFFFF;
 }
 
 .title8 {
-/* life. */
+/* life */
 position: absolute;
 width: 102px;
 height: 59px;
@@ -153,7 +148,7 @@ color: #FFFFFF;
 }
 
 
-/* about */
+/* about с анимацией*/
 .about:hover {
     transform: scale(1.2);
 }
@@ -167,12 +162,10 @@ color: #FFFFFF;
     transition: transform 0.6s;
 }
 
-/* quiz */
-
+/* quiz с анимацией*/
 .quiz:hover {
     transform: scale(1.2);
 }
-
 .quiz {
     position: absolute;
     width: 57px;
@@ -182,12 +175,10 @@ color: #FFFFFF;
     transition: transform 0.6s;
 }
 
-/* discover */
-
+/* discover с анимацией*/
 .discover:hover {
     transform: scale(1.2);
 }
-
 .discover {
     position: absolute;
     width: 100px;
@@ -197,24 +188,26 @@ color: #FFFFFF;
     transition: transform 0.6s;
 }
 
- /* dhruva_logos */
+ /* dhruva_logos фикс */
 .dhruva_logo {
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+    margin-top: 40px;
     width: 175px;
     height: 32px;
-    left: 179px;
-    top: 46px;
 }
 
 .ASTRONOMY_CLUB {
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+    margin-top: 10px;
     width: 173px;
     height: 15px;
-    left: 179px;
-    top: 80px;
 }
 
-/* scroll */
+/* scroll с анимацией */
 .Scroll {
     position: absolute;
     width: 116px;
@@ -234,12 +227,11 @@ color: #FFFFFF;
     color: #FFFFFF;
     transform: rotate(90deg);
 }
-
 .Scroll:hover{
     color: blue;
 }
 
-/* logos */
+/* logos с анимацией*/
 .insta {
 position: absolute;
 width: 28px;
@@ -248,7 +240,6 @@ left: 131px;
 top: 980px;
 transition: transform 0.6s;
 }
-
 .insta:hover {
     transform: scale(1.2);
 }
@@ -289,7 +280,6 @@ font-size: 120px;
 line-height: 146.1px;
 text-align: center;
 color: #FFFFFF;
-
 }
 
 .title1:hover{
@@ -322,7 +312,7 @@ position: absolute;
 width: 500px;
 height: 15px;
 left: 710px;
-top: 3220px;
+top: 3350px;
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 400;
@@ -332,9 +322,7 @@ text-align: center;
 color: #FFFFFF;
 }
 
-
 h5 {
-position: absolute;
 width: 177px;
 height: 28px;
 font-family: 'Montserrat';
@@ -344,6 +332,15 @@ font-size: 25px;
 line-height: 28px;
 text-align: center;
 color: #FFFFFF;
+margin-right: 430px;
+}
+.flex-containerH5 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: -441px;
+    margin-left:235px;
+    position: fixed;
 }
 
 h6 {
@@ -359,42 +356,41 @@ text-align: center;
 color: #FFFFFF;
 }
 
+.flex-containerPICS {
+    display: flex;
+    margin-top: -742px;
+    margin-left: 160px;
+    position: fixed;
+    justify-content: space-evenly;
+
+}
+
 .pic1 {
-position: absolute;
 width: 321px;
 height: 321px;
-left: 168px;
-top: 342px;
 border: 2px solid darkblue;
 padding: 5px;
 display: inline-block;
-
+margin-right: 265px;
 }
 
 .pic2 {
-position: absolute;
 width: 330px;
 height: 330px;
-left: 768px;
-top: 340px;
-
 padding: 5px;
 display: inline-block;
 border: 2px solid #800080;
+margin-right: 190px;
 }
 
 .pic3 {
-position: absolute;
 width: 330px;
 height: 330px;
-left: 1370px;
-top: 340px;
-
+margin-left: 65px;
 border: 2px solid darkblue;
 padding: 5px;
 display: inline-block;
 }
-
 
 .animated-text {
     font-size: 20px;
@@ -421,7 +417,6 @@ display: inline-block;
 }
 
 .navtext1 {
-position: absolute;
 width: 125px;
 height: 59px;
 left: 809px;
@@ -431,28 +426,28 @@ font-style: bold;
 font-weight: 600;
 font-size: 47px;
 line-height: 59px;
+position: fixed;
 text-align: center;
 color: #6A5ACD;
 }
 
 .navtext2 {
-position: absolute;
-width: 130px;
+margin-top: -500px;
+margin-left:840px;
+width: 125px;
 height: 59px;
-left: 845px;
-top: 2215px;
 font-family: 'Montserrat';
-font-style: normal;
+font-style: bold;
 font-weight: 600;
 font-size: 47px;
 line-height: 59px;
-text-align: center;
 color: #6A5ACD;
 }
 
-
 .usabout {
-position: absolute;
+display: flex;
+margin-top:-160px;
+margin-left:300px;
 width: 220px;
 height: 33px;
 left: 323px;
@@ -460,31 +455,30 @@ top: 2550px;
 }
 
 .poloska {
-position: absolute;
+display:flex;
+margin-left:333px;
 width: 0px;
 height: 61px;
-left: 353px;
-top: 2580px;
 border: 1px solid #FFFFFF;
 transform: rotate(90deg);
 }
 
 .logo2 {
-position: absolute;
+display: flex;
 width: 200px;
 height: 220.65px;
-left: 334px;
-top: 2770px;
+margin-left: 334px;
+margin-top: -680px;
 background: url(Dhruva-Final-(2).png);
 }
 
-
 .info1 {
-position: absolute;
+display: flex;
+flex-direction: row;
 width: 828px;
 height: 76px;
-left: 670px;
-top: 2590px;
+margin-left: 670px;
+margin-top: 150px;
 text-decoration: underline;
 font-family:'Montserrat';
 font-style: normal;
@@ -498,7 +492,7 @@ color: #FFFFFF;
 position: absolute;
 width: 1004px;
 height: 183px;
-left: 673px;
+margin-left: 673px;
 top: 2730px;
 font-family: 'Poppins';
 font-style: bold;
@@ -508,11 +502,7 @@ line-height: 190%;
 letter-spacing: 0.02em;
 text-transform: uppercase;
 color: #FFFFFF;
-display: flex;
 }
-
 .info2:hover{
     color: #08457e;
 }
-
-
