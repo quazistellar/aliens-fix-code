@@ -1,3 +1,30 @@
+.container1 {
+    display: grid;
+    grid-template-columns: 2080px;
+    grid-template-rows: 100px 1080px 1080px  1080px 50px;
+    gap: 0px 0px;
+    grid-template-areas:
+        "block1"
+        "block2"
+        "block3"
+        "block4"
+        "block5";
+
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#block1 { grid-area: block1; }
+#block2 { grid-area: block2; }
+#block3 { grid-area: block3; }
+#block4 { grid-area: block4; }
+#block5 { grid-area: block5; }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .fon1 {
     margin-left: 12px;
     margin-bottom: -4.6px;
@@ -18,7 +45,7 @@ header {
     width: 97px;
     height: 45px;
     left: 1630px;
-    top: -25px;
+    top: 42px;
     transition: transform 0.6s;
 }
 
@@ -26,11 +53,6 @@ header {
     transform: scale(1.2);
 }
 
-.signup-div {
-    position: relative;
-    display: inline-block;
-    top: -23px;
-}
 
 .title3{
 /* space */
@@ -193,7 +215,7 @@ color: #FFFFFF;
     display: flex;
     flex-direction: row;
     margin-left: 170px;
-    margin-top: 40px;
+    margin-top: -80px;
     width: 175px;
     height: 32px;
 }
@@ -334,6 +356,7 @@ text-align: center;
 color: #FFFFFF;
 margin-right: 430px;
 }
+
 .flex-containerH5 {
     display: flex;
     flex-direction: row;
@@ -506,3 +529,8 @@ color: #FFFFFF;
 .info2:hover{
     color: #08457e;
 }
+
+
+
+
+
